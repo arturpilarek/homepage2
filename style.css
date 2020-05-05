@@ -1,0 +1,10 @@
+body {
+    background:#f4f1de;
+}
+.main__header, .about__h3, .about__h2, .diary__header, .diary__h3, .diary__h4 {
+color: #c84f2d;
+}
+
+.about__description, .about__paragraph, .footer, .diary__content {
+    color: #3d405b;
+}
