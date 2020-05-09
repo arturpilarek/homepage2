@@ -8,3 +8,33 @@ color: #c84f2d;
 .about__description, .about__paragraph, .footer, .diary__content {
     color: #3d405b;
 }
+
+.navigation {
+    background: rgb(82, 194, 196);
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.navigation__link {
+    color: #c84f2d;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.navigation__link--homepage {
+    background: rgb(51, 204, 128);
+}
+
+.week-summary {
+    padding: 16px;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+
+.week-summary__description {
+    color: #92140c;
+}
+
+.week-summary__title {
+    color: #21a179;
+}

@@ -10,17 +10,18 @@
 
 <body>
     <header>
-        <nav class="nav">
-            <a href="index.html" class="nav__link">Strona Główna</a>
-            <a href="diary.html" class="nav__link">Pamiętniczek</a>
+    <!--jak nazywamy klasy to staramy sie uzywac pelnych nazw, nie nav, tylko navigaton-->
+        <nav class="navigation">
+            <a href="index.html" class="navigation__link navigation__link--homepage">Strona Główna</a>
+            <a href="diary.html" class="navigation__link">Pamiętniczek</a>
         </nav>
     </header>
     <main class="main">
         <section class="diary">
             <h2 class="diary__header">Notatki z WTF: Co ten frontend</h2>
-            <article class="diary__article">
-                <h3 class="diary__h3">Tydzień Drugi</h3>
-                <p class="diary__content">
+            <article class="week-summary">
+                <h3 class="week-summary__title">Tydzień Drugi</h3>
+                <p class="week-summary__description">
                     W tym tygodniu zajmowaliśmy się podstawami HTML i CSS. Poznaliśmy podstawowe znaczniki, jak i
                     poprawne ich zastosowanie. Maciek pokazał nam również na czym polega myślenie programistyczne, gdzie
                     nawet rzeczy tak trywialne jak gotowanie herbaty możemy zapisać w formie algorytmu. Na koniec
